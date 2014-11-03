@@ -5,7 +5,7 @@ import java.util.Random;
  */
 class random
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int countLessThenTen = 0;
         Random rn = new Random();
