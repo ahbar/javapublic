@@ -1,11 +1,11 @@
-package Drill1;
+package utilsmk44;
 import java.util.Random;
 /**
  * Created by boris on 11/2/2014.
  */
-class random
+class RandomGenerator
 {
-    public static void main(String args[])
+    public static void run ()
     {
         int countLessThenTen = 0;
         Random rn = new Random();
@@ -19,12 +19,9 @@ class random
             {
                 countLessThenTen++;
             }
-
         }
         System.out.println("there were " +countLessThenTen);
-
     }
-
  }
 
 
