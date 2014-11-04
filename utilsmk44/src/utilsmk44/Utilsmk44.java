@@ -12,5 +12,9 @@ public class Utilsmk44 {
 
         StringLength stringLength = new StringLength();
         System.out.println(stringLength.calculateStringLength("hello" ));
+
+        ProblemOne problemOne = new ProblemOne();
+        problemOne.allUnique("wazskl");
     }
+
 }
