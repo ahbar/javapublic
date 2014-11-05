@@ -1,27 +1,25 @@
 package utilsmk44;
-
+import java.util.*;
 /**
  * Created by boris on 11/3/2014.
  */
 public class ProblemOne {
-    public void allUnique(String word) {
-        boolean[] chars = new boolean[26];
-       // String upperLetter = word.toUpperCase();
+    public static boolean allUnique(String word) {
+        boolean flag = false;
+        // ill convert the string to chars array;
 
-        for (int i = 0; i < word.length(); i++)
-        {
-            if (!chars[(int) word.toUpperCase().charAt(i) - 64])
-
-                chars[(int) word.toUpperCase().charAt(i) - 64] = true;
-
-            else
-
-                System.out.println("not unique ");
-
-           }
-        System.out.println("unique");
+        char[] strArray = word.toCharArray();
+        //sort the characters array
+        Arrays.sort(strArray);
+        //compare the characters loop
+        for (int i = 0; i < strArray.length - 1; i++) {
+            if (strArray[i] == strArray[i + 1]) {
+                flag = true;
+                System.out.println("The string is not unique");
+                return flag;
+            }
+        }
+        System.out.println("is unique");
+        return flag;
     }
-
-    }
-
-
+}
