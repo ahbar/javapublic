@@ -3,7 +3,8 @@ package utilsmk44;
 /**
  * Created by Jeff on 11/2/2014.
  */
-public class Utilsmk44 {
+public class Utilsmk44
+{
     public static void main(String[] args)
     {
         System.out.println("main started");
@@ -13,8 +14,7 @@ public class Utilsmk44 {
         StringLength stringLength = new StringLength();
         System.out.println(stringLength.calculateStringLength("hello" ));
 
-        ProblemOne problemOne = new ProblemOne();
-        problemOne.allUnique("wazskl");
+        Problem3 problem3 = new Problem3();
+        problem3.allUnique("wazssl");
     }
-
 }

@@ -3,7 +3,8 @@ import java.util.*;
 /**
  * Created by boris on 11/3/2014.
  */
-public class ProblemOne {
+public class Problem3 {
+
     public static boolean allUnique(String word) {
         boolean flag = false;
         // ill convert the string to chars array;
