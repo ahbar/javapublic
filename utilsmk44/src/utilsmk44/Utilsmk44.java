@@ -15,6 +15,10 @@ public class Utilsmk44 {
 
         ProblemOne problemOne = new ProblemOne();
         problemOne.allUnique("wazskl");
+
+        LongestOverlap longestOverlap = new LongestOverlap();
+        longestOverlap.LongestOverl("hey how are you", "hey you" );
+
     }
 
 }
