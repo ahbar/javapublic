@@ -1,9 +1,9 @@
-package utilsmk44;
+/*package utilsmk44;
 import java.lang.*;
 /**
  * Created by boris on 11/17/2014.
  */
-public class LongestOverlap {
+/*public class LongestOverlap {
     public String LongestOverl(String x, String y) {
         int start = 0;
         int max = 0;
@@ -38,3 +38,4 @@ public class LongestOverlap {
 
 
 
+*/
