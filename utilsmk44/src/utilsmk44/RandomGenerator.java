@@ -6,7 +6,6 @@ import java.util.Random;
 class RandomGenerator
 {
     public static void run ()
-
     {
         int countLessThenTen = 0;
         Random rn = new Random();
