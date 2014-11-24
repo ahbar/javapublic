@@ -1,7 +1,7 @@
 
 import java.util.Random;
 
-class RandomGenerator
+public class RandomGenerator
 {
     public static void run ()
     {
