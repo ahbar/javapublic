@@ -1,7 +1,6 @@
+
 import java.util.Random;
-/**
- * Created by boris on 11/2/2014.
- */
+
 class RandomGenerator
 {
     public static void run ()
