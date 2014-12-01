@@ -21,12 +21,15 @@ public class Utilsmk44
         //Problem3 problem3 = new Problem3();
         //problem3.allUnique("wazssl");
 
-        LongestOverlap longestOverlap = new LongestOverlap();
+       // LongestOverlap longestOverlap = new LongestOverlap();
         //System.out.println("longest overlap is: " + longestOverlap.getLongestOverlap("ff", "jeffddd"));
         //System.out.println("longest overlap is: " + longestOverlap.LongestOverl("ff", "jeffddd"));
-        System.out.println("longest overlap is: " + longestOverlap.longestCommonSubstring("efmm111", "jeffddd"));
+        //System.out.println("longest overlap is: " + longestOverlap.longestCommonSubstring("efmm111", "jeffddd"));
 
-        StringOperator stringOperator = new StringOperator();
-        stringOperator.test1();
+        //StringOperator stringOperator = new StringOperator();
+        //stringOperator.test1();
+        LinkedList newLinkedList = new LinkedList();
+        newLinkedList.run();
+
     }
 }
