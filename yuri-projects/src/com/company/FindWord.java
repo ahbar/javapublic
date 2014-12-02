@@ -22,6 +22,7 @@ public class FindWord {
     {
 
         String[] currentWord = myText.split(" ");
+        System.out.println("The word im looking for is:");
         System.out.println(wantedWord);
         int counter=0;
 
@@ -30,7 +31,7 @@ public class FindWord {
             if (currentWord[i].contains(wantedWord))
               counter++;
                 else
-                System.out.println(i);
+                System.out.println(counter);
         }
         System.out.println("Wanted word was found" +counter);
         return 0;
